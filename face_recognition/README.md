@@ -34,6 +34,8 @@ Changes made from the original prompt.
 
 ---
 
+NOTE; I HAVE USED PYTHON VERSION 3.10.9 FOR THIS SO ALL THE PACKAGES HAVE THE SAME COMPATIBLE VERSIONS. I HAVE ALSO EXECUTED THIS IN A VIRTUAL ENVIRONMENT.
+
 ## 🚀 Features
 
 - 🔍 Face detection using **MediaPipe**
