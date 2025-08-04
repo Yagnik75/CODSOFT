@@ -4,7 +4,7 @@ from datetime import datetime
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
-# nltk.download("vader_lexicon")
+nltk.download("vader_lexicon")
 
 
 class ChatBot:
@@ -131,4 +131,5 @@ class ChatBot:
 if __name__ == "__main__":
     bot = ChatBot("FriendlyBot")
     bot.start_chat()
+
 
