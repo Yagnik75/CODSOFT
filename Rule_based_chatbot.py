@@ -33,9 +33,9 @@ class ChatBot:
                 break
 
             if answer.strip().lower() == correct_answer.lower():
-                print("✅ Correct!\n")
+                print("Correct!\n")
             else:
-                print(f"❌ Wrong! The correct answer is {correct_answer}\n")
+                print(f"Wrong! The correct answer is {correct_answer}\n")
 
         print("Thanks for playing trivia!\n")
         return "Trivia session ended."
@@ -68,13 +68,13 @@ class ChatBot:
             if compound >= 0.05:
                 responses = [
                     "That’s wonderful to hear!",
-                    "I’m so happy for you 😊",
+                    "I’m so happy for you",
                     "Sounds like you had a great day!",
                     "Awesome! Days like these are the best!",
                 ]
             elif compound <= -0.05:
                 responses = [
-                    "I’m sorry you had a tough day 😞",
+                    "I’m sorry you had a tough day",
                     "That sounds rough, I hope tomorrow is better!",
                     "I'm here for you if you need to talk more.",
                     "Bad days happen, but they pass. Stay strong!",
@@ -131,3 +131,4 @@ class ChatBot:
 if __name__ == "__main__":
     bot = ChatBot("FriendlyBot")
     bot.start_chat()
+
